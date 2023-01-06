@@ -1,0 +1,6 @@
+framework module Pods_ZYFTextView_Example {
+  umbrella header "Pods-ZYFTextView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

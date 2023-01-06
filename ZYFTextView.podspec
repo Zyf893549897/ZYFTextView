@@ -28,10 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/zhangyunfei/ZYFTextView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'ZYFTextView/Classes/**/*'
+  s.source_files = 'ZYFTextView/Classes/**/*.{swift,h,m,xib}'
   
+  s.dependency 'Masonry'
   # s.resource_bundles = {
   #   'ZYFTextView' => ['ZYFTextView/Assets/*.png']
   # }

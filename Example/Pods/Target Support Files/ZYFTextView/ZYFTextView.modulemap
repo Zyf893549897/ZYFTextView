@@ -1,0 +1,6 @@
+framework module ZYFTextView {
+  umbrella header "ZYFTextView-umbrella.h"
+
+  export *
+  module * { export * }
+}
