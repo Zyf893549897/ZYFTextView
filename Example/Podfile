@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ZYFTextView_Example' do
+  pod 'ZYFTextView', :path => '../'
+
+  target 'ZYFTextView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
