@@ -1,7 +1,7 @@
 {
   "name": "ZYFTextView",
   "version": "0.1.0",
-  "summary": "A short description of ZYFTextView.",
+  "summary": "带提示文字的和尾部数量统计的textView",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/zhangyunfei/ZYFTextView",
   "license": {
